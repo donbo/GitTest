@@ -12,6 +12,7 @@
 		275B258F1B535D0900CF68F8 /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275B258E1B535D0900CF68F8 /* RestaurantService.swift */; };
 		275B25911B535DEB00CF68F8 /* ServiceQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275B25901B535DEB00CF68F8 /* ServiceQuality.swift */; };
 		275B25931B53644E00CF68F8 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275B25921B53644E00CF68F8 /* RestaurantViewController.swift */; };
+		27C21AB41B57524E009C5424 /* RestaurantSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C21AB31B57524E009C5424 /* RestaurantSettingsViewController.swift */; };
 		9265DFC21B4B791600AC4B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9265DFC11B4B791600AC4B32 /* AppDelegate.swift */; };
 		9265DFC71B4B791600AC4B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9265DFC51B4B791600AC4B32 /* Main.storyboard */; };
 		9265DFC91B4B791600AC4B32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9265DFC81B4B791600AC4B32 /* Images.xcassets */; };
@@ -35,6 +36,7 @@
 		275B258E1B535D0900CF68F8 /* RestaurantService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
 		275B25901B535DEB00CF68F8 /* ServiceQuality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceQuality.swift; sourceTree = "<group>"; };
 		275B25921B53644E00CF68F8 /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		27C21AB31B57524E009C5424 /* RestaurantSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantSettingsViewController.swift; sourceTree = "<group>"; };
 		9265DFBC1B4B791600AC4B32 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9265DFC01B4B791600AC4B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9265DFC11B4B791600AC4B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				9265DFC11B4B791600AC4B32 /* AppDelegate.swift */,
 				274A15151B4E10D300EC531F /* RootViewController.swift */,
 				275B25921B53644E00CF68F8 /* RestaurantViewController.swift */,
+				27C21AB31B57524E009C5424 /* RestaurantSettingsViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				275B25911B535DEB00CF68F8 /* ServiceQuality.swift in Sources */,
 				275B258F1B535D0900CF68F8 /* RestaurantService.swift in Sources */,
 				274A15181B4E137700EC531F /* TypesOfServices.swift in Sources */,
+				27C21AB41B57524E009C5424 /* RestaurantSettingsViewController.swift in Sources */,
 				9265DFC21B4B791600AC4B32 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,7 +15,7 @@ class RestaurantService {
     var serviceQuality: ServiceQuality
     var numberInParty: Int
     var splitBillAmount: Double
-    
+
     
     init () {
         billBeforeTip = 0
@@ -26,13 +26,15 @@ class RestaurantService {
     }
     
     func setTipPercentage() {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        
         switch serviceQuality {
-        case .good:
-            tipPercentage = 15
         case .poor:
-            tipPercentage = 10
+            tipPercentage = Double(defaults.integerForKey("restaurantPoor"))
+        case .good:
+            tipPercentage = Double(defaults.integerForKey("restaurantGood"))
         case .amazing:
-            tipPercentage = 20
+            tipPercentage = Double(defaults.integerForKey("restaurantAmazing"))
         }
     }
     

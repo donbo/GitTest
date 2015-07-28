@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let defaults = ["restaurantPoor": 10, "restaurantGood": 15, "restaurantAmazing": 20, "defaultRestaurantPoorPercentage": 10, "defaultRestaurantGoodPercentage": 15, "defaultRestaurantAmazingPercentage": 20]
+        NSUserDefaults.standardUserDefaults().registerDefaults(defaults)
+        
         return true
     }
 
